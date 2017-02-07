@@ -1,0 +1,29 @@
+{
+  "name": "wavy",
+  "version": "0.0.1",
+  "description": "print some wavy colored junk on the terminal",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/wavy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/wavy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/wavy/issues"
+  },
+  "main": "wavy.js",
+  "scripts": {
+    "standard": "echo 'running standard ...' && standard",
+    "test": "npm run -s standard",
+    "watch": "nodemon --exec 'npm run -s test'"
+  },
+  "dependencies": {
+    "chalk": "~1.1.3",
+    "minimist": "~1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.11.0",
+    "standard": "~8.6.0"
+  }
+}
